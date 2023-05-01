@@ -4,8 +4,8 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'tsserver',
-  'rust_analyzer',
-})
+  'bashls',
+  'pytight',})
 
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace()
