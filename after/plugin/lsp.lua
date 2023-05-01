@@ -5,7 +5,10 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'bashls',
-  'pytight',})
+  'pyright',
+  
+
+})
 
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace()
